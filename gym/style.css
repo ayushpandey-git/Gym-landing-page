@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background: url("gym2.jpg");
+    background-size: 100%;  
+    /* height: 100%;
+    width: 100%; */
+    color: black;
+    background-repeat: no-repeat;
+} 
+nav{
+    
+    display: flex;
+    margin-top: 50px;
+    /* margin-left: 500px; */
+    padding-left: 10px;
+}
+pre{
+    font-family: 'Playfair Display';
+    font-size: 75px;
+    font-weight: 550;
+    margin-right: 60px;
+    margin-left: 30px;
+}
+.left{
+    height: 100%;
+    width: 50%;
+}
+ul button{
+    width: 100px;
+    height: 30px;
+    background-color: rgba(239, 27, 27, 0.551);
+    color: black;
+    font-size: 17px;
+    border: none;
+    border-radius: 3px;
+    
+
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+.logo-txt pre{
+    font-family: "Playfair Display", serif;
+    font-size: 45px;
+    padding-left: 10px;
+}
+ul li a{
+    margin-inline: 30px;
+    font-size: 25px;
+    cursor: pointer;
+}
+ul li a:hover{
+    border-bottom: 2px solid gray;
+    border-radius: 30px;
+}
+
+ul button:hover{
+    background-color: rgb(244, 58, 58);
+    cursor: pointer;
+    transition: 0.5s;
+   
+}
+.Text{
+ margin-left: 20px;
+ margin-top: 0%; 
+ width: 100%;  
+}
+.Text h1{
+    font-size: 45px;
+    margin-left: 25px;
+}
+.Text p{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.Text button{
+    font-size: 25px;
+    width: 110px;
+    height: 40px;
+    background-color: rgba(239, 27, 27, 0.551);
+    color: rgb(5, 5, 5);
+    border: none;
+    border-radius: 3px;
+    margin-top: 50px;
+    margin-left: 25px;
+
+}
+.Text button:hover{
+    background-color: rgb(251, 76, 76);
+    transition: 0.5s ease-in-out;
+}
+.Logo img{
+    height: 150px;
+    width: 150px;
+    padding-right: 15px;
+}
